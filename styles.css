@@ -16,7 +16,7 @@ body {
     margin: auto;
     text-align: center;
 }
-.display-screen {
+/* .display-screen {
     padding: 0.8rem 1rem;
     margin: 1.5rem;
     background-color: transparent;
@@ -26,6 +26,30 @@ body {
     font-weight: bold;
     font-size: large;
     text-align: right;
+    display: inline;
+} */
+.display-screen {
+    background-color: transparent;
+    border: 1px solid thistle;
+    border-radius: 1rem;
+    width: 105px;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    font-size: large;
+    font-weight: bold;
+    text-align: right;
+    color: thistle;
+}
+.display-output {
+    background-color: transparent;
+    border: 1px solid thistle;
+    width: 45px;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    font-size: large;
+    font-weight: bold;
+    text-align: right;
+    color: thistle;
 }
 .buttons,.equal-btn   {
     padding: 0.5rem;
